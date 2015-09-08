@@ -1,0 +1,29 @@
+{
+  "name": "ItalianCollecive",
+  "version": "0.0.1",
+  "homepage": "https://github.com/italiancollectiveco/IC_site.git",
+  "authors": [
+    "Nina Viggi <nina@italiancollective.co>"
+  ],
+  "description": "Italian Collective Website",
+  "main": "server.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "angular-google-maps": "~2.1.6",
+    "angular-route": "~1.4.5",
+    "angular-ui-router": "~0.2.15"
+  }
+}

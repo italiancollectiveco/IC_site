@@ -1,0 +1,41 @@
+<!-- <!DOCTYPE HTML> -->
+<html lang="en" data-ng-app="ic_co">
+
+  <head>
+    <title>Italian Collective . CO</title>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width = 320,
+       initial-scale = 1, user-scalable = no,  minimal-ui">
+    <link rel="stylesheet" type="text/css" href="/views/css/style.css" media="all">
+    <link rel="stylesheet" href="/views/css/ionicons.css">
+    <link rel="stylesheet" href="/views/css/ionicons.min.css">
+  </head>
+
+  <body id="main">
+
+    <div ui-view="home"></div>
+
+    <!-- ANGULAR SETUP -->
+    <script src="/bower_components/angular/angular.js"></script>
+
+    <!-- ANGULAR DEPENDENCIES -->
+    <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+    <!-- ANGULAR STRUCTURE -->
+    <script src="/modules/core/core.js"></script>
+    <script src="/modules/core/config/routes.js"></script>
+
+    <!-- ANGULAR CONTROLLERS -->
+    <script src="/modules/core/controllers/ListCtrl.js"></script>
+
+    <!-- ANGULAR GOOGLE MAPS -->
+    <script src='/bower_components/lodash/lodash.min.js'></script>
+    <script src='/bower_components/angular-google-maps/dist/angular-google-maps.min.js'></script>
+
+    <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
+
+  </body>
+
+</html>
