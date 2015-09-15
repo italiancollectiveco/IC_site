@@ -1,5 +1,5 @@
 <!-- <div ng-class="{removePointer: scrolling }"> -->
-<div>
+<div ng-style="{ width: windowWidth }">
   <div ng-hide="true" style="position: fixed; bottom: 20px; right: 20px;">
     <ul>
       <li>directionTracker - {{directionTracker}}</li>
@@ -17,7 +17,7 @@
     </ul>
   </nav>
 
-  <section id="container-section-{{count}}" ng-repeat="count in number" ng-style="{ width: windowWidth, height: windowHeight }">
+  <section id="container-section-{{count}}" ng-repeat="count in number" ng-style="{ height: windowHeight }">
     <h1>SECTION {{count}}</h1>
 <!--     <ul>
       <li>width - {{windowWidth}}</li>
